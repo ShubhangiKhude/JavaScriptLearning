@@ -70,5 +70,19 @@ var sentence = "Yes you can do it guys, just keep learning and practising as wel
 var wordsInSentence =  sentence.split(" ");
 console.log("Total words in sentence string is: ", wordsInSentence.length);
 
+console.log("======== String template ==========");
+console.log(`Yes you can do it "Sanket"  `);
+
+
+var firstName = "Mohit ";
+var lastName = "Sharma";
+console.log("First name is: "+ firstName + "Last name is: "+ lastName );
+
+console.log(`First name is: ${firstName} and last name is ${lastName}`);
+
+
+console.log("Hello", "\nGood", " \nMorning"  );
+
+
 
 
