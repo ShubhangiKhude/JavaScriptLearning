@@ -10,7 +10,9 @@ factorial(7);
 factorial(8);
 factorial(12);
 
-function factorialNumber(num) {
+console.log(`--------------------------------------------------`);
+
+function factorialNumber1(num) {
     console.log(`Given number is : ${num}`);
 
     var fact = 1; 
@@ -19,7 +21,29 @@ function factorialNumber(num) {
     }
     console.log(`${fact}`);
 }
-factorialNumber(5);
+factorialNumber1(5);
+factorialNumber1(7);
+factorialNumber1(8);
+factorialNumber1(12);
+
+console.log(`--------------------------------------------------`);
+
+function factorialNumber2(num) {
+    console.log(`Given number is : ${num}`);
+    var fact = 1; 
+    while (num > 0) {
+        fact = fact * num;
+        num--;
+    }
+    console.log(`factorial of number :--> ${fact}`);
+}
+factorialNumber2(5);
+factorialNumber2(7);
+
+
+
+
+
 
 
 
