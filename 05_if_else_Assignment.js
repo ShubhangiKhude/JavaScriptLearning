@@ -23,6 +23,9 @@ console.log( `------------------------------------------------------------------
 
 console.log(`<----"Grade Calculation by using if else block statement"---->`);
 function gradeCalculation(marks) {
+  if ((typeof marks) == "number") {
+    // console.log(`Given marks is "${marks}",--> Please provide the valid marks.`);
+  
   if (marks >= 90 && marks <= 100) {
     console.log(`Funtastic marks:"${marks}",--> Your grade is A+.`);
   }else{
@@ -35,10 +38,14 @@ function gradeCalculation(marks) {
     if(marks >= 35 && marks < 50){
     console.log(`Given marks is:"${marks}",--> Your grade is C, Need improvement.`);
     }
-    if(marks == 0 || marks < 0 || marks > 100 || (typeof marks == "string")){
+    if(marks == 0 || marks < 0 || marks > 100){
         console.log(`Given marks is "${marks}",--> Please provide the valid marks.`);
     }
-    
+  }
+  
+    }else{
+      console.log(`Given marks is "${marks}",--> Please provide the valid marks.`);
+
     }
 }
 gradeCalculation(98);
@@ -51,7 +58,7 @@ gradeCalculation(35);
 gradeCalculation(29);
 gradeCalculation(64);
 gradeCalculation(49);
-gradeCalculation(91);
+gradeCalculation("91");
 gradeCalculation("Eighty");
 
 
