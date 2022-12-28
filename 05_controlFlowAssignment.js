@@ -35,15 +35,17 @@ function oddPositionedChars(string){
      console.log(myString);
      for (let index = 0; index < myString.length; index++) {
         if (index %2 != 0) {
-            emptyString= emptyString+ myString[index];
+            emptyString= emptyString + myString[index];
         }
         
      }
      console.log(`Odd positioned chars in the string is:--> ${emptyString}.`);
+console.log(`-------------------------------------------------------------`);
+
 
 }
-oddPositionedChars("Hard work always pays back");
-console.log(`-------------------------------------------------------------`);
+oddPositionedChars("Hard work always pays back");--
+// console.log(`-------------------------------------------------------------`);
 oddPositionedChars("Soon I will be Angular IT champ");
 
 // function oddPositionedChars(string){
