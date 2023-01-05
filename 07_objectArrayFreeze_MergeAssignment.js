@@ -43,12 +43,38 @@ console.log(`-------------------------------------------------------------------
 console.log(`6]. Given String is--> "Codemind Technology" from which Reversing only "Technology" word...`);
 var myString = "Codemind Technology";
 var EmptyString = "";
-for (let index = myString.length-1; index >= 9; index--) {
+
+for (let index = myString.length-1; index >= 0; index--) {
     var myString1 = myString.charAt(index);
-    EmptyString= EmptyString + myString1;
-    // console.log(myString[index]);      
+    // EmptyString = EmptyString + myString1;
+    if (myString1 == " ") {
+        break;
+    }
+    // console.log(EmptyString);
+    EmptyString = EmptyString + myString1;
+    
 }
-var newString = "Codemind";
-var concatString = newString+ " "+EmptyString;
-console.log(concatString);
+console.log(EmptyString);
+
+var emptyString1 = " ";
+for (let index = 0; index < myString.length; index++) {
+    var myString1 = myString.charAt(index);
+
+    if(myString1 == " "){
+        break;
+    }
+    emptyString1 = emptyString1 + myString1; 
+}
+console.log(emptyString1);
+console.log(EmptyString + emptyString1);
+
+
+// for (let index = myString.length-1; index >= 9; index--) {
+//     var myString1 = myString.charAt(index);
+//     EmptyString= EmptyString + myString1;
+//     // console.log(myString[index]);      
+// }
+// var newString = "Codemind";
+// var concatString = newString+ " "+EmptyString;
+// console.log(concatString);
 
