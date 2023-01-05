@@ -1,56 +1,21 @@
-var myName; // Variable Declaration
-myName = "Shubhangi Khude"; // Variable initialization
+
+var myName;
+myName="Welcome In Javascript";
 console.log(myName);
 
-var myFrdName = "Sachin Tendulkar"; // Variable declaration and initialization at the same time
-console.log(myFrdName);
-
-myFrdName = "MS Dhoni"; // Variable update 
-console.log(myFrdName);
-
-var myFullName = "Mohit Sharma";
-
+var myFullName;
+myFullName="Shubhangi Khude";
 console.log(myFullName);
 
-console.log("==== Learning typeof ====");
-var age = 31;
-var ageType = typeof age;
-console.log(ageType);
-console.log(typeof age);
+var myLove;
+myLove="I Love Javascript";
+console.log(myLove);
 
-var pinCode = 431202;
-
-var city="Pune";
-
-var isMarried = false;
-
-console.log("==== Learning undefined====");
-var country;// variable declaration
-console.log(country);
-country = "India"; // Initialization
-console.log(country);
-
-var companyName;
-console.log(companyName);
-console.log(typeof companyName);
-
-console.log(typeof 45); var weight=45;
-console.log(typeof "Billgates"); 
-console.log(typeof false); var areYouMad = false;
-
-console.log(" Strongly typed vs loosely typed  ");
-// String microsoftOwner = "Billgates"; // Java
-// microsoftOwner = true;
-
-var microsoftOwner = "Billgates";
-console.log(typeof microsoftOwner); // 
-microsoftOwner = 45;
-console.log(typeof microsoftOwner);
-microsoftOwner = true;
-console.log(typeof microsoftOwner);
-
-
-
-
-
-
+var fullName,age,address,pin_code,gender,is_married;
+fullName="Shubhangi Khude";
+age="24";
+address="Satara";
+pin_code="415015";
+gender="Female";
+is_married="No";
+console.log(fullName,age,address,pin_code,gender,is_married);
