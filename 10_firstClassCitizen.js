@@ -21,6 +21,7 @@ function anotherFunction(){
 }
 
 function show(myNumber){ // myNumber is an argument
+    console.log(`I am in show function`);
     myNumber();
 }
 show(anotherFunction);

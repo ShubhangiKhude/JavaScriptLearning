@@ -14,8 +14,10 @@ function show(){
 
 // display(); // function never hoisted..   
 
+
 var display = function(){
     console.log("Hello I am in display");
 }
 display(); 
+
 
