@@ -42,7 +42,7 @@ const arrayNumbers = [2, 4, 5, 8];
 // arrayNumbers = []; /// Not allowed
 // Freeze array
 Object.freeze(arrayNumbers);
-// arrayNumbers.push(10);   not allowed bzoz this array ie frreze
+// arrayNumbers.push(10);   not allowed bzoz this array ie freeze
 console.log(arrayNumbers);
 
 
